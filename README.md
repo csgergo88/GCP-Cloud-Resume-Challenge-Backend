@@ -32,6 +32,9 @@ If not already created, the script will create a Firestore database and a counte
 The Cloud Run service will be deployed using the specified parameters, including the source code from the current directory.
 The service will be configured to allow unauthenticated access, listening on port 8080, with the maximum specified instances and CPU boost.
 
+**Clean-up**
+The provided termination script, terminate.ps1, can be executed to cleanly terminate the Cloud Run service and release associated resources.
+
 **Notes**
 Ensure that you have the Google Cloud SDK installed and configured on your local machine.
 Review and customize the variables.ps1 file with your specific deployment details before running the script.
