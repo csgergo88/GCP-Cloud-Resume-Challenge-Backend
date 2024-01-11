@@ -24,10 +24,6 @@ def get_visitorcount():
     else:
         return None
 
-def update_visitorcount(counter):
-    visitorcount_ref = db.collection(visitorcount_collection).document(VC_document)
-    visitorcount_ref.update({'counter': counter})
-
 @app.route('/', methods=['GET'])
 def index():
     return jsonify({'status': 'Bark bark! Ready to roll.'})
@@ -46,14 +42,10 @@ def update_counter():
     data = request.get_json()
     counter = int(data.get('counter'))
 
-    visitorcount_data = get_visitorcount()
-    if visitorcount_data:
-        current_counter = visitorcount_data['counter']
-        update_visitorcount(current_counter + counter)
-        return jsonify({'status': 'success'})
-    else:
-        create_visitorcount_document()
-        return jsonify({'status': 'Visitorcount document created with initial counter value.'})
+    counter_ref = db.collection(visitorcount_collection).document(VC_document)
+    counter_ref.update({'counter': counter})
+
+    return jsonify({'status': 'success'})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
