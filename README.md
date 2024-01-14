@@ -28,7 +28,8 @@ Before using the deployment script, ensure you have the following prerequisites:
 - GCP project created and configured.
 - PowerShell environment for running the deployment script.
 
-**Usage**
+## Usage
+
 **Clone Repository:**
 
 Ensure that you have cloned the repository containing the script.
