@@ -19,7 +19,14 @@
   </p>
 </p>
 **Overview**
-The deploy.ps1 script is designed to streamline the deployment process of Cloud Run resources within your Google Cloud Platform (GCP) project. By utilizing this PowerShell script, you can easily deploy and manage your Cloud Run services on GCP.
+This repository contains the backend code for the Cloud Resume Challenge. The deployment process is streamlined using the deployment.ps1 script, allowing for easy deployment of the frontend to Google Cloud Platform (GCP). This README provides guidance on using the deployment script and deploying the frontend to GCP.
+
+## Prerequisites
+Before using the deployment script, ensure you have the following prerequisites:
+
+- [Google Cloud SDK (gcloud)](https://cloud.google.com/sdk/docs/install) installed and configured.
+- GCP project created and configured.
+- PowerShell environment for running the deployment script.
 
 **Usage**
 **Clone Repository:**
