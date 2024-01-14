@@ -1,6 +1,23 @@
-# GCP-Cloud-Resume-Challenge-Backend
-**GCP Cloud Resume Challenge Backend**
+# Cloud resume Challange Backend
 
+<p align="center">
+  <a href="">
+    <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*lDi1bp7b37khnH3tPVoLuQ.png" alt="Logo" width="50%" height="50%">
+  </a>
+
+  <h3 align="center">Google Cloud Platform (GCP) Resume Challenge </h3>
+
+  <p align="center">
+    Build a serverless resume website on GCP with API backend and GitOps-based CI/CD
+    <br />
+    <a href="https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-on-gcp" target="_blank"><strong>See challenge description by Mattias Andersson @CloudGuru »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/alfonsmr/GCP-Cloud-Resume-Challenge-Frontend/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/alfonsmr/GCP-Cloud-Resume-Challenge-Frontend/issues">Request Feature</a>
+  </p>
+</p>
 **Overview**
 The deploy.ps1 script is designed to streamline the deployment process of Cloud Run resources within your Google Cloud Platform (GCP) project. By utilizing this PowerShell script, you can easily deploy and manage your Cloud Run services on GCP.
 
