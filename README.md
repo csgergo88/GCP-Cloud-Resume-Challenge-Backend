@@ -13,7 +13,7 @@
     <a href="https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-on-gcp" target="_blank"><strong>See challenge description by Mattias Andersson @CloudGuru »</strong></a>
     <br />
     <br />
-    <a href="http://34.120.161.232/my_resume.html" target="_blank">View Demo</a>
+    <a href="http://34.49.56.203/my_resume.html" target="_blank">View Demo</a>
     <br />
     <a href="https://github.com/alfonsmr/GCP-Cloud-Resume-Challenge-Frontend/issues">Report Bug</a>
     ·
